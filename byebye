@@ -1,0 +1,6 @@
+echo "# .dotfiles" >> README.md &&
+git init &&
+git add README.md &&
+git commit -m "first commit" &&
+git remote add origin https://github.com/m4z3n/.dotfiles.git &&
+git push -u origin master 
